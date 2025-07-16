@@ -21,3 +21,7 @@ def test_fibonacci_one():
 
 def test_fibonacci_four():
     assert list(Fibonacci(4)) == [0, 1, 1, 2, 3]
+
+
+def test_fibonacci_ten():
+    assert list(Fibonacci(10)) == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
