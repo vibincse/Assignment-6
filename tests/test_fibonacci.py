@@ -13,3 +13,7 @@ def test_non_integer_input_raises_value_error():
 
 def test_fibonacci_zero():
     assert list(Fibonacci(0)) == [0]
+
+
+def test_fibonacci_one():
+    assert list(Fibonacci(1)) == [0, 1]

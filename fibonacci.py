@@ -13,6 +13,7 @@ class Fibonacci:
     def __next__(self):
         if self.index > self.value:
             raise StopIteration
+
         if self.index == 0:
             self.index += 1
             return 0
@@ -23,4 +24,5 @@ class Fibonacci:
             self.a, self.b = self.b, self.a + self.b
             self.index += 1
             return self.b
+
 
